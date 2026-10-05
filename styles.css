@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+
+
+.calculator {
+    background-color: #F3F7E1;
+    border: 1px solid #F3F7E1;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.display {
+    background-color: #4B5650;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input, .numbers, .top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    margin-top: 5px;
+    align-items: center;
+}
+
+
+
+
+.firstRow, .secondRow, .mainCotrollers, .thirdRow, .equalZeroDeceml, .operators, .lowerBlock, .upperBlock {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #869D83;
+    cursor: pointer;
+    box-shadow: 0px 5px 0px #5A6E57;
+
+}
+
+button:active { 
+    box-shadow: 0px 2px 0px #5A6E57;
+    width: 39.5px;
+    height: 39.5px;
+ }
+
+/* button:hover {
+    background-color: #F0E0E1;
+} */
+
+.mainCotrollers button {
+    background-color: #F9E1E7;
+}
+
+.firstRow button {
+    background-color: #FDF0CE;
+}
+
+.secondRow button {
+    background-color: #C4DBBD;
+}
+
+.thirdRow button {
+    background-color: #E2C1DA;
+}
+
+.equalZeroDeceml button {
+    background-color: #BBDBE9;
+}
