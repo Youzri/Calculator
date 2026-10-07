@@ -17,8 +17,8 @@ body {
 .calculator {
     background-color: #F3F7E1;
     border: 1px solid #F3F7E1;
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 310px;
     border-radius: 15px;
     padding: 10px;
 }
@@ -33,6 +33,10 @@ body {
     font-weight: bold;
     font-size: large;
     color: white;
+    width: 170px;
+    height: 30px;
+    overflow: hidden;
+    
 }
 
 .operators {
